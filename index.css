@@ -1,9 +1,11 @@
 *{
     user-select: none;
+    box-sizing: border-box;
 }
 
 body{
     margin:0;
+    width: 100%;
 }
 
 
@@ -101,6 +103,12 @@ footer{
 
 .footer_link_img{
     width:40px;
+}
+
+@media screen and (max-width:768px) {
+    header{
+        background-color: #1ea72e;
+    }
 }
 
 
